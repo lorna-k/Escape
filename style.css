@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.background {
+	background: url("background.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 600px;
+	padding-top: 40px;
+	padding-left:40px;
+}
+
+.esc {
+	height:150px;
+	width: auto;
+	margin-top: 0
+	border: 1px solid blue;
+}
+
+.login {
+	text-align: right;
+	display: inline-block;
+	padding-left: 800px;
+	position: relative;
+	transform: translate(0, -150px);
+}
+
+.button {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	margin: 10px;
+}
+.login a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.getapp {
+	position: relative;
+	transform: translate(-100px, -100px);
+}
+
+#app-pg {
+	height: 1000px;
+}
