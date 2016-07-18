@@ -52,3 +52,52 @@ body {
 #app-pg {
 	height: 1000px;
 }
+
+/*.appDetails img {
+	width: auto;
+	height:25%;
+}
+
+li {
+	display:inline-block;
+}
+
+.appDetails li p {
+	color: black;
+}
+*/
+.iPhone_block {
+	display: inline-block;
+	width: 100%;
+	margin: 0px auto;
+	position: center;
+	padding-left: 45px;
+}
+
+ul {
+	display: inline-block;
+	width: 33.333%;
+	float: left;
+	margin: 0px auto;
+}
+
+li {
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+.list_block {
+	display: inline-block;
+	width: 33.3333%;
+	margin: 0px auto;
+}
+
+hr{
+	height: 1px;
+	background: black;
+	margin: 40px auto;
+	width: 400px;
+}
