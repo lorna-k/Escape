@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	transition: .3s;
 }
 
 body {
@@ -36,7 +37,7 @@ body {
 .button {
 	color: white;
 	text-decoration: none;
-	font-size: 30px;
+	font-size: 20px;
 	margin: 10px;
 }
 .login a:hover{
@@ -100,4 +101,8 @@ hr{
 	background: black;
 	margin: 40px auto;
 	width: 400px;
+}
+
+.stepHeader {
+	text-align: center;
 }
