@@ -1,7 +1,7 @@
-* {
+/** {
 	box-sizing: border-box;
 	transition: .3s;
-}
+}*/
 
 body {
 	padding: 0;
@@ -10,21 +10,56 @@ body {
 
 .main-pg {
 	background: url("images/background.jpg");
-	-webkit-background-size: cover;
+/*	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover;
+	-o-background-size: cover;*/
 	background-size: cover;
-	padding-bottom: 300px;
+	padding-bottom: 200px;
 	padding-top: 40px;
 	padding-left:40px;
 }
 
 .esc {
-	height:150px;
+	height:100px;
 	width: auto;
-	margin-top: 0
-	border: 1px solid blue;
+	margin-top: 0;
 }
+
+.title {
+	font-size: 60px;
+	color: white;
+	font-family: Arial;
+	display: inline;
+	margin-left: 20px;
+}
+
+.login {
+	border: 2px solid white;
+	border-radius: 20%;
+	color: white;
+	text-decoration: none;
+	padding: 15px;
+	font-size: 20px;
+	display: inline;
+	float: right;
+	margin-right: 20px;
+}
+
+.slogan {
+	text-align: center;
+	font-family: Arial;
+	font-size: 40px;
+	color: white;
+	margin-top: 170px;
+}
+
+.app-button {
+	height: 150px;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+
 /*
 .login {
 	text-align: right;
@@ -34,50 +69,18 @@ body {
 	transform: translate(0, -150px);
 }*/
 
-.account {
-	border: 2px solid white;
-	border-radius: 20%;
-	color: white;
-	text-decoration: none;
-	padding: 15px;
-	font-size: 20px;
-	margin: 10px;
-}
 .login a:hover{
 	text-decoration: none;
 	color: black;
 }
 
-.title {
-	text-align: center;
-	font-size: 60px;
-	margin-top: 50px;
-	color: white;
-	font-family: Gotham;
-	
-}
-.slogan {
-	text-align: center;
-	font-family: didot;
-	font-size: 25px;
-	color: white;
-}
-.start{
+/*.start{
 	border: 2px solid #40A6E8;
 	background-color: #64AEE8;
 	border-radius: 10%;
 	padding: 10px;
 	text-decoration: none;
-}
-
-.get-started {
-	text-align: center;
-	font-size: 25px;
-/*	margin-top: 50px;*/
-	color: white;
-	position: relative;
-	transform: translate(0, -250px);
-}
+}*/
 
 .getapp {
 	text-align: center;
