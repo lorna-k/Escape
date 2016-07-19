@@ -9,7 +9,7 @@ body {
 }
 
 .main-pg {
-	background: url("background.jpg");
+	background: url("images/background.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -172,7 +172,7 @@ hr{
 }
 
 .backgroundOne {
-	background: url(cape-town-scenery.jpeg);
+	background: url(images/cape-town-scenery.jpeg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -180,7 +180,7 @@ hr{
 }
 
 .backgroundTwo {
-	background: url(rome.jpg);
+	background: url(images/rome.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -188,7 +188,7 @@ hr{
 }
 
 .backgroundThree {
-	background: url(stockholm.jpg);
+	background: url(images/stockholm.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -196,7 +196,7 @@ hr{
 }
 
 .backgroundFour {
-	background: url(bali.jpg);
+	background: url(images/bali.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
