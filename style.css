@@ -149,6 +149,8 @@ hr{
 .stepOne {
 	text-align: center;
 	margin-top: 100px;
+	margin-left: -150px;
+	margin-right: 100px;
 }
 
 .stepTwo {
@@ -164,7 +166,9 @@ hr{
 
 .stepFour {
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 200px;
+	margin-right: 275px;
+	margin-left: -200px;
 }
 
 .backgroundOne {
@@ -191,4 +195,11 @@ hr{
 	background-size: cover;
 }
 
+.backgroundFour {
+	background: url(bali.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
