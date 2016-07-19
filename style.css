@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	transition: .3s;
 }
 
 body {
@@ -138,4 +139,8 @@ hr{
 	background: black;
 	margin: 40px auto;
 	width: 400px;
+}
+
+.stepHeader {
+	text-align: center;
 }
