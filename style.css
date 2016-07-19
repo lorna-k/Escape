@@ -119,7 +119,9 @@ body {
 .nav-options {
 	color: white;
 	font-style: Arial;
+	text-align: right;
 }
+
 /*.appDetails img {
 	width: auto;
 	height:25%;
