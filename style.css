@@ -153,12 +153,13 @@ hr{
 
 .stepTwo {
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 100px;
+	margin-left: 100px;
 }
 
 .stepThree {
 	text-align: center;
-	margin-top: 250px;
+	margin-top: 100px;
 }
 
 .stepFour {
@@ -173,3 +174,21 @@ hr{
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+.backgroundTwo {
+	background: url(rome.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backgroundThree {
+	background: url(stockholm.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
