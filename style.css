@@ -143,6 +143,7 @@ hr{
 
 .stepHeader {
 	text-align: center;
+/*	outline: 1px solid orange;*/
 }
 
 .stepOne {
@@ -152,12 +153,16 @@ hr{
 
 .stepTwo {
 	text-align: center;
+	margin-top: 250px;
 }
 
 .stepThree {
 	text-align: center;
+	margin-top: 250px;
 }
 
 .stepFour {
 	text-align: center;
+	margin-top: 250px;
 }
+
