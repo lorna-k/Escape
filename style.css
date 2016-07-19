@@ -92,6 +92,21 @@ body {
 	transform: transition(.3);
 }
 
+.navbar {
+	height: 100px;
+	background-color: #296DD4;
+}
+
+.nav-esc {
+	height: 60px;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.nav-options {
+	color: white;
+	font-style: Arial;
+}
 /*.appDetails img {
 	width: auto;
 	height:25%;
