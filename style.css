@@ -1,24 +1,7 @@
-<<<<<<< HEAD
-/** {
-=======
-.clearfix:after {
-     visibility: hidden;
-     display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;
-     }
-.clearfix { display: inline-block; }
-/* start commented backslash hack \*/
-* html .clearfix { height: 1%; }
-.clearfix { display: block; }
-/* close commented backslash hack */
 * {
->>>>>>> 8fdf3ceaf373927a67e9f15e8131c58f3188b53c
 	box-sizing: border-box;
 	transition: .3s;
-}*/
+}
 
 body {
 	padding: 0;
