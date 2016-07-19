@@ -135,12 +135,60 @@ li {
 }
 
 hr{
-	height: 1px;
-	background: black;
+	height: 3px;
+	background: solid black;
 	margin: 40px auto;
-	width: 400px;
+	width: 1000px;
 }
 
 .stepHeader {
 	text-align: center;
+/*	outline: 1px solid orange;*/
 }
+
+.stepOne {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.stepTwo {
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.stepThree {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.stepFour {
+	text-align: center;
+	margin-top: 250px;
+}
+
+.backgroundOne {
+	background: url(cape-town-scenery.jpeg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backgroundTwo {
+	background: url(rome.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.backgroundThree {
+	background: url(stockholm.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
