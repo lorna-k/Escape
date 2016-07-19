@@ -217,4 +217,18 @@ hr{
 	-o-background-size: cover;
 	background-size: cover;
 }
+.left {
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 100%;
+	background-color: #B9D7D9;
+	margin-bottom: 10px;
+	text-align: center;
+}
 
+.right {
+	position: relative;
+	float: right;
+	margin-bottom: 10px;
+}
