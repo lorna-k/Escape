@@ -210,6 +210,8 @@ body {
 .navbar {
 	height: 100px;
 	background-color: #296DD4;
+	position: relative;
+	margin: 0;
 }
 
 .nav-esc {
@@ -219,24 +221,28 @@ body {
 }
 
 .nav-options {
-	text-align: right;
+/*	text-align: right;*/
 	list-style-type: none;
 	font-size: 12px;
 	font-family: "Helvetica", sans-serif;
 	text-transform: uppercase;
-	padding-right: 20px;
-	margin: 0;
-	padding: 0;
-
+/*	padding-right: 20px;*/
+	position: absolute;
+	float: right;
 }
 .nav-options ul {
 	margin-left: 800px;
+	margin-bottom: 10px;
+	float: right;	
 }
 .nav-options li {
 	color: white;
-	display: inline;
+	display: inline-block;
 	float: right;
-	margin: 5px;
+	margin: 10px;
+	font-family: verdana;
+	font-size: 15px;
+	padding-bottom: 20px;
 }
 
 /*.appDetails img {
