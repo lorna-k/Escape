@@ -127,9 +127,11 @@ body {
 }
 
 .nav-options {
-	color: white;
-	font-style: Arial;
 	text-align: right;
+	list-style: none;
+	font-size: 12px;
+	font-family: "Helvetica", sans-serif;
+	text-transform: uppercase;
 }
 
 /*.appDetails img {
