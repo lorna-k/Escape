@@ -10,13 +10,19 @@ body {
 
 .main-pg {
 	background: url("images/background.jpg");
-/*	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;*/
 	background-size: cover;
 	padding-bottom: 60px;
 	padding-top: 40px;
 	padding-left:40px;
+	background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+.top-left {
+	position: absolute;
+	top: 10px;
+	left: 20px;
 }
 
 .esc {
@@ -34,7 +40,13 @@ body {
 	margin-top: 10px;	
 }
 
-.login {
+.top-right {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.mytrips-button {
 	border: 2px solid white;
 	border-radius: 20%;
 	color: white;
@@ -46,14 +58,9 @@ body {
 	margin-top: 8px;
 }
 
-.loginText {
-	padding-top: 5px;
-}
-
-.login:hover {
+.mytrips-button:hover {
 	background-color: white;
 }
-
 
 .slogan {
 	text-align: center;
@@ -78,11 +85,25 @@ body {
 	margin-top: 100px;
 }
 
+
+/*"choose your itinerary" chunk*/
+
 .itinerary {
-	height: 500px;
+	height: 410px;
 	background-color: #F1F1F1;
 }
 
+.iphone {
+	height: 400px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+}
+
+h3 {
+	margin: 0;
+	display: inline;
+}
 
 /*
 .login {
@@ -115,6 +136,8 @@ body {
 	transform: transition(.3);
 }
 
+
+/*mytrips page stuff*/
 .navbar {
 	height: 100px;
 	background-color: #296DD4;
