@@ -93,14 +93,12 @@ body {
 	background-color: #F1F1F1;
 	position: relative;
 }
-
-.iphone {
+.iphone1 {
 	height: 380px;
 	float: right;
 	margin-right: 40px;
 	margin-top: 21px;
 }
-
 .text1 {
 	width: 500px;
 	position: absolute;
@@ -108,18 +106,74 @@ body {
 	left: 150px;
 	text-align: center;
 }
-
 .title1 {
 	margin: 0;
 	display: inline;
 	font-size: 40px;
 }
-
-.title2 {
+.description1 {
 	font-size: 25px;
 	padding-top: 10px;
 }
 
+
+/*"list of activities" page*/
+.activities {
+	height: 400px;
+	background-color: white;
+	position: relative;
+}
+.iphone2 {
+	height: 380px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 21px;
+}
+.text2 {
+	width: 500px;
+	position: absolute;
+	top: 130px;
+	right: 150px;
+	text-align: center;
+}
+.title2 {
+	margin: 0;
+	display: inline;
+	font-size: 40px;
+}
+.description2 {
+	font-size: 25px;
+	padding-top: 10px;
+}
+
+/*"map your route" page*/
+.map {
+	height: 400px;
+	background-color: #F1F1F1;
+	position: relative;
+}
+.iphone3 {
+	height: 380px;
+	float: right;
+	margin-right: 40px;
+	margin-top: 21px;
+}
+.text3 {
+	width: 500px;
+	position: absolute;
+	top: 130px;
+	left: 150px;
+	text-align: center;
+}
+.title3 {
+	margin: 0;
+	display: inline;
+	font-size: 40px;
+}
+.description3 {
+	font-size: 25px;
+	padding-top: 10px;
+}
 /*
 .login {
 	text-align: right;
