@@ -1,54 +1,34 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<html>
-<head>
-  <title>My Trips</title>
-  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-  <meta charset="utf-8">
-  <style>
-   html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  #map {
-    width: 60%;
-    height: 100%;
-  }
-</style>
-</head>
-<body>
-  <div class="navbar">
-   <img class="nav-esc" src="images/esc.png">
-   <div class="nav-options">
-    <ul>
-      <a href="/"><li>My Trips</li></a>
-      <a href="/"><li>Explore</li></a>
-      <a href="/"><li>New Trip</li></a>
-    </ul>
-  </div>
+<div class="navbar">
+ <img class="nav-esc" src="images/esc.png">
+ <div class="nav-options">
+  <ul>
+    <a href="/"><li>My Trips</li></a>
+    <a href="/"><li>Explore</li></a>
+    <a href="/"><li>New Trip</li></a>
+  </ul>
+</div>
+</div>
 
 <div class="left">
   <div class="location-div">Cape Town, South Africa</div>
 
   <h3>Itinerary</h3>
 
-<div class="toDo" ng-repeat="task in newItinerary">
+  <div class="toDo" ng-repeat="task in newItinerary">
 
-<p>Time: {{task.StartTime}}</p>
-<p><strong>{{task.Description}}</strong>
-{{task.Event}}
-</p>
-<p>Type: {{task.Tag}}</p>
+    <p>Time: {{task.StartTime}}</p>
+    <p><strong>{{task.Description}}</strong>
+      {{task.Event}}
+    </p>
+    <p>Type: {{task.Tag}}</p>
 
 
-</div>
 </div>
 </div>
 <div class="right">
-<map ng-transclude class="google-map" center="map.center" options="map.options"> 
+  <map ng-transclude class="google-map" center="map.center" options="map.options"> 
 
-  <points coords="points.coords" options="points.options" events="points.events" decimals="points.decimals"></points>
+    <points coords="points.coords" options="points.options" events="points.events" decimals="points.decimals"></points>
 
-</map>
+  </map>
 </div>
