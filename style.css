@@ -31,6 +31,7 @@ body {
 	font-family: Arial;
 	display: inline;
 	margin-left: 20px;
+	margin-top: 10px;	
 }
 
 .login {
@@ -42,6 +43,7 @@ body {
 	display: inline;
 	float: right;
 	margin-right: 20px;
+	margin-top: 8px;
 }
 
 .loginText {
