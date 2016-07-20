@@ -1,14 +1,4 @@
-<div class="navbar">
- <img class="nav-esc" src="images/esc.png">
- <div class="nav-options">
-  <ul>
-    <a href="/"><li>My Trips</li></a>
-    <a href="/"><li>Explore</li></a>
-    <a href="/"><li>New Trip</li></a>
-  </ul>
-</div>
-</div>
-
+<ng-include src="'templates/header.html'"></ng-include>
 <div class="left">
   <div class="location-div">Cape Town, South Africa</div>
 
@@ -23,7 +13,7 @@
     <p>Type: {{task.Tag}}</p>
 
 
-</div>
+  </div>
 </div>
 <div class="right">
   <map ng-transclude class="google-map" center="map.center" options="map.options"> 
