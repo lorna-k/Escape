@@ -9,6 +9,8 @@ app.config(function($routeProvider) {
 	}).when('/mytrips', {
 		controller: 'MytripsCtrl',
 		templateUrl: '/templates/mytrips.html'
+	}).when('/explore', {
+		controller: 'ExploreCtrl',
 	})
 });
 
