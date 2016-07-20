@@ -38,25 +38,6 @@
 		</ul>
 	</div>
 </div>
-
-<<<<<<< HEAD
-<div class="right" id="map">
-=======
-	<div class="left">
-		<div class="location-div">Cape Town, South Africa</div>
-		<h4>Select what you would like to do</h4>
-		<div class="activities">
-			<ul>
-				<p><input ng-model="nightLife" type="checkbox"/>Night Life</p>
-				<p><input ng-model="museums" type="checkbox"/>Museums</p>
-				<p><input ng-model="outdoors" type="checkbox"/>Outdoors</p>
-				<p><input ng-model="shopping" type="checkbox"/>Shopping</p>
-			</ul>
-		</div>
-	</div>
->>>>>>> ae1b19a55dc30cb774ff84da154c8618f5268685
-
-</div>
 <script>
     // This example requires the Places library. Include the libraries=places
     // parameter when you first load the API. For example:
@@ -96,7 +77,7 @@
         map: map,
         position: place.geometry.location
       });
-      
+
       google.maps.event.addListener(marker, 'click', function() {
         infowindow.setContent(place.name);
         infowindow.open(map, this);
