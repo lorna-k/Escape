@@ -166,14 +166,23 @@ body {
 
 .nav-options {
 	text-align: right;
-	list-style: none;
+	list-style-type: none;
 	font-size: 12px;
 	font-family: "Helvetica", sans-serif;
 	text-transform: uppercase;
 	padding-right: 20px;
-	float: right;
-	display: inline;
+	margin: 0;
+	padding: 0;
 
+}
+.nav-options ul {
+	margin-left: 800px;
+}
+.nav-options li {
+	color: white;
+	display: inline;
+	float: right;
+	margin: 5px;
 }
 
 /*.appDetails img {
