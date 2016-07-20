@@ -7,7 +7,7 @@ app.config(function($routeProvider) {
 		controller: 'MarketingCtrl',
 		templateUrl: '/templates/marketing.html'
 	}).when('/mytrips', {
-		controller: 'MytripsCtrl',
+		controller: 'TripsCtrl',
 		templateUrl: '/templates/mytrips.html'
 	}).when('/explore', {
 		controller: 'ExploreCtrl',
@@ -18,7 +18,7 @@ app.config(function($routeProvider) {
 app.controller('MarketingCtrl', function($scope) { 
 });
 
-app.controller('MytripsCtrl', function($scope) {
+app.controller('TripsCtrl', function($scope) {
 });
 
 app.controller('ExploreCtrl', function($scope) {
