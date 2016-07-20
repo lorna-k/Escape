@@ -18,10 +18,7 @@ app.config(function($routeProvider) {
 app.controller('MarketingCtrl', function($scope) { 
 });
 
-app.controller('TripsCtrl', function($scope) {
-});
-
-app.controller('ExploreCtrl', function($scope, $http, $route) {
+app.controller('TripsCtrl', function($scope, $http) {
 	$http({
 		url: "http://ec2-52-33-4-120.us-west-2.compute.amazonaws.com:8000/hello",
 		method:"POST",
@@ -38,3 +35,39 @@ app.controller('ExploreCtrl', function($scope, $http, $route) {
       		$scope.error = response.data.message;
     	});
 });
+
+app.controller('ExploreCtrl', function($scope, $http, $route) {
+	
+});
+app.controller('Main', function($scope) {
+
+      $scope.map = {
+  center: [47.5, -122.5],
+  options: function() {
+      return {
+        streetViewControl: false,
+        scrollwheel: false
+      }
+  }
+};
+
+$scope.points = {
+  coords: [
+    [47,-122],
+    [48,-123],
+    [47,-123],
+    [48,-122]
+  ],
+  options: function(coords, properties, i, map) {
+    return {
+      draggable: true
+    }
+  },
+  events: {
+    click: function(e, point, map, points) {
+      alert(point)
+    }
+  },
+  decimals: 3
+};
+    });

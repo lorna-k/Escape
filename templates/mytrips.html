@@ -9,17 +9,25 @@
 
 <div class="left">
   <div class="location-div">Cape Town, South Africa</div>
-  <h4>Select what you would like to do</h4>
-  <div class="activities">
-   <ul>
-    <p><input ng-model="nightLife" type="checkbox"/>Night Life</p>
-    <p><input ng-model="museums" type="checkbox"/>Museums</p>
-    <p><input ng-model="outdoors" type="checkbox"/>Outdoors</p>
-    <p><input ng-model="shopping" type="checkbox"/>Shopping</p>
-  </ul>
+
+  <h3>Itinerary</h3>
+
+<div class="toDo" ng-repeat="task in newItinerary">
+
+<p>Time: {{task.StartTime}}</p>
+<p><strong>{{task.Description}}</strong>
+{{task.Event}}
+</p>
+<p>Type: {{task.Tag}}</p>
+
+
+</div>
 </div>
 </div>
 <div class="right">
-  <div class="map">Map goes here
-  </div>
+<map ng-transclude class="google-map" center="map.center" options="map.options"> 
+
+  <points coords="points.coords" options="points.options" events="points.events" decimals="points.decimals"></points>
+
+</map>
 </div>
