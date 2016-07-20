@@ -96,23 +96,23 @@ body {
 .iphone1 {
 	height: 380px;
 	float: right;
-	margin-right: 40px;
+	margin-right: 200px;
 	margin-top: 21px;
 }
 .text1 {
-	width: 500px;
+	width: 600px;
 	position: absolute;
 	top: 130px;
-	left: 150px;
+	left: 200px;
 	text-align: center;
 }
 .title1 {
 	margin: 0;
 	display: inline;
-	font-size: 40px;
+	font-size: 50px;
 }
 .description1 {
-	font-size: 25px;
+	font-size: 30px;
 	padding-top: 10px;
 }
 
@@ -126,11 +126,11 @@ body {
 .iphone2 {
 	height: 380px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 200px;
 	margin-top: 21px;
 }
 .text2 {
-	width: 500px;
+	width: 600px;
 	position: absolute;
 	top: 130px;
 	right: 150px;
@@ -139,10 +139,10 @@ body {
 .title2 {
 	margin: 0;
 	display: inline;
-	font-size: 40px;
+	font-size: 50px;
 }
 .description2 {
-	font-size: 25px;
+	font-size: 30px;
 	padding-top: 10px;
 }
 
@@ -155,11 +155,11 @@ body {
 .iphone3 {
 	height: 380px;
 	float: right;
-	margin-right: 40px;
+	margin-right: 200px;
 	margin-top: 21px;
 }
 .text3 {
-	width: 500px;
+	width: 600px;
 	position: absolute;
 	top: 130px;
 	left: 150px;
@@ -168,12 +168,48 @@ body {
 .title3 {
 	margin: 0;
 	display: inline;
-	font-size: 40px;
+	font-size: 50px;
 }
 .description3 {
-	font-size: 25px;
+	font-size: 30px;
 	padding-top: 10px;
 }
+
+/* just app button */
+
+.download-app {
+	height: 200px;
+	background-color: white;
+	position: relative;
+}
+.app-button2 {
+	height: 150px;
+	width: auto;
+	position: absolute;
+	left: 40%;
+}
+
+/* footer */
+
+.footer {
+	height: 200px;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.footer-items {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+.footer p {
+	display: inline;
+	padding: 50px;
+}
+
+
 /*
 .login {
 	text-align: right;
