@@ -26,12 +26,13 @@ app.controller('ExploreCtrl', function($scope, $http, $route) {
 		url: "http://ec2-52-33-4-120.us-west-2.compute.amazonaws.com:8000/hello",
 		method:"POST",
 		params: {
-			subtypes: "shopping", 
-			lat:18.41, 
-			long:-33.910,
+			subtypes: "shopping, entertainment, dinning, nightlife, sightsee", 
+			// lat:18.41, 
+			// long:-33.910,
 		},
 		}).then(function(response){
 			console.log(response.data);
+			$scope.newItinerary = response.data;
 			
 		}).catch(function(response) {
       		$scope.error = response.data.message;
