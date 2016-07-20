@@ -44,6 +44,15 @@ body {
 	margin-right: 20px;
 }
 
+.loginText {
+	padding-top: 5px;
+}
+
+.login:hover {
+	background-color: white;
+}
+
+
 .slogan {
 	text-align: center;
 	font-family: Arial;
