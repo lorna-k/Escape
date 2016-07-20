@@ -225,6 +225,8 @@ body {
 	font-family: "Helvetica", sans-serif;
 	text-transform: uppercase;
 	padding-right: 20px;
+	float: right;
+	display: inline;
 
 }
 
