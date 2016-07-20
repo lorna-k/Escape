@@ -11,11 +11,16 @@ app.config(function($routeProvider) {
 		templateUrl: '/templates/mytrips.html'
 	}).when('/explore', {
 		controller: 'ExploreCtrl',
+		templateUrl: '/templates/explore.html'
 	})
 });
 
-app.controller('MarketingCtrl', function ($scope) { 
+app.controller('MarketingCtrl', function($scope) { 
 });
 
 app.controller('MytripsCtrl', function($scope) {
+});
+
+app.controller('ExploreCtrl', function($scope) {
+
 });
