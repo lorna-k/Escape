@@ -207,7 +207,7 @@ body {
 
 .footer p {
 	display: inline;
-	padding: 50px;
+	padding: 35px;
 }
 
 
@@ -410,4 +410,12 @@ hr{
 .page img{
 	width: 250px;
 	height: 250px;
+}
+
+.itineraryTitle {
+	font-family: arial;
+}
+
+.toDo {
+	border: 1px solid black;
 }
