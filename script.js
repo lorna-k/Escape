@@ -24,7 +24,16 @@ app.controller('PageCtrl', function($scope) {
 	 
 });
 
-app.controller('TripsCtrl', function($scope) {
+app.controller('TripsCtrl', function($scope, $http) {
+	      $scope.map = {
+  center: [-33, 18],
+  options: function() {
+      return {
+        streetViewControl: false,
+        scrollwheel: false
+      }
+  }
+};
 	$http({
 		url: "http://ec2-52-33-4-120.us-west-2.compute.amazonaws.com:8000/hello",
 		method:"POST",
@@ -48,7 +57,7 @@ app.controller('ExploreCtrl', function($scope, $http, $route) {
 app.controller('Main', function($scope) {
 
       $scope.map = {
-  center: [47.5, -122.5],
+  center: [-33, 18],
   options: function() {
       return {
         streetViewControl: false,
@@ -76,4 +85,4 @@ $scope.points = {
   },
   decimals: 3
 };
-    });
+});
