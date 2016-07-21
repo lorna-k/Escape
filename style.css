@@ -220,9 +220,9 @@ body {
 /* newtrip2 page */
 .main-pg2 {
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background2.jpg");
-	background-size: cover;
+/*	background-size: cover;*/
 	background-position: center center;
-    height: 100vh;
+    height: 700px;
 }
 
 .contents {
@@ -265,6 +265,7 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: white;
 	font-size: 30px;
+	text-align: center;
 }
 
 .amount-time {
@@ -337,6 +338,18 @@ body {
 }
 .with-arrows {
 	display: inline;
+}
+.arrow1 {
+	height: 50px;
+	width: auto;
+	float: left;
+	padding-top: 3px;
+}
+.arrow2 {
+	height: 50px;
+	width: auto;
+	float: right;
+	padding-top: 3px;
 }
 .itinerary-items {
 	color: white;
