@@ -43,7 +43,7 @@ app.controller('TripsCtrl', function($scope, $http) {
 		url: "http://ec2-52-33-4-120.us-west-2.compute.amazonaws.com:8000/hello",
 		method:"POST",
 		params: {
-			subtypes: "shopping, entertainment, dinning, nightlife, sightsee", 
+			subtypes: "shopping, entertainment, dining, nightlife, sightseeing, museum", 
 			// lat:18.41, 
 			// long:-33.910,
 		},
