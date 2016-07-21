@@ -12,13 +12,19 @@ app.config(function($routeProvider) {
 	}).when('/explore', {
 		controller: 'ExploreCtrl',
 		templateUrl: '/templates/explore.html'
+	}).when('/page', {
+		controller: 'PageCtrl',
+		templateUrl: '/templates/page.html'
 	})
 });
 
 app.controller('MarketingCtrl', function($scope) { 
 });
+app.controller('PageCtrl', function($scope) {
+	 
+});
 
-app.controller('TripsCtrl', function($scope, $http) {
+app.controller('TripsCtrl', function($scope) {
 	$http({
 		url: "http://ec2-52-33-4-120.us-west-2.compute.amazonaws.com:8000/hello",
 		method:"POST",
