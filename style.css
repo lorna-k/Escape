@@ -493,3 +493,23 @@ hr{
 .toDo {
 	border: 1px solid black;
 }
+/*page.html*/
+.capetown {
+	margin-left: 40px;
+
+}
+.queenstown {
+	margin-left: 40px;
+}
+.paris {
+	margin-left: 80px;
+}
+.rome {
+	margin-left: 85px;
+}
+.barca {
+	margin-left: 65px;
+}
+.copenhagen {
+	margin-left: 50px;
+}
