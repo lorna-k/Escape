@@ -48,7 +48,7 @@ body {
 
 .mytrips-button {
 	border: 2px solid white;
-	border-radius: 20%;
+	border-radius: 12px;
 	color: white;
 	padding: 15px;
 	font-size: 20px;
@@ -410,4 +410,77 @@ hr{
 .page img{
 	width: 250px;
 	height: 250px;
+}
+.select-activity{
+	/*border: 1px solid gray;*/
+	border-radius: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 30px
+}
+
+.select-activity h4{
+	font-size: 20px;
+
+}
+.activityForm{
+	border: 2px solid green;
+}
+.explore-left{
+	margin-top: 30px;
+	background-color: #F1F1F1;
+	border-radius: 5px;
+	height: 600px;
+	text-align: center;
+}
+
+.explore-right{
+	margin-top: 30px;
+	height: 600px
+}
+
+.date{
+	/*border: 2px solid orange;*/
+	font-family: sans-serif;
+	font-size: 25px;
+	height: 40px;
+	text-align: center;
+}
+.weather-widget{
+	margin-top: 20px;
+	border: 2px solid gray;
+	background-color: white;
+	height: 300px;
+
+}
+.heading{
+	text-align: center;
+	font-size: 80px;
+	color: black;
+	max-height: 80px;
+	padding: 18px;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+}
+
+.makeItinerary-button {
+	border: 2px solid white;
+	background-color: #0080ff;
+	border-radius: 12px;
+	color: black;
+	padding: 8px;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 8px;
+	text-decoration: none;
+}
+
+.makeItinerary-button:hover {
+	background-color: black;
+	text-decoration: none;
+	color: white
 }
