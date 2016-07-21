@@ -9,9 +9,9 @@ app.config(function($routeProvider) {
 	}).when('/mytrips', {
 		controller: 'TripsCtrl',
 		templateUrl: '/templates/mytrips.html'
-	}).when('/explore', {
-		controller: 'ExploreCtrl',
-		templateUrl: '/templates/explore.html'
+	}).when('/newtrip', {
+		controller: 'NewTripCtrl',
+		templateUrl: '/templates/newtrip.html'
 	}).when('/page', {
 		controller: 'PageCtrl',
 		templateUrl: '/templates/page.html'
@@ -51,8 +51,8 @@ app.controller('TripsCtrl', function($scope, $http) {
     	});
 });
 
-app.controller('ExploreCtrl', function($scope, $http, $route) {
-	
+app.controller('NewTripCtrl', function($scope, $http, $route) {
+	$scope.currDate = new Date();
 });
 app.controller('Main', function($scope) {
 

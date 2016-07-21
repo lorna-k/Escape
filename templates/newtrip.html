@@ -1,0 +1,45 @@
+<ng-include src="'templates/header.html'"></ng-include>
+<div class="row">
+	<div class="heading col-md-10 col-md-offset-1 "><h1>Cape Town, South Africa</h1></div>
+</div>
+
+<div class="row">
+	<div class="explore-left col-md-5 col-md-offset-1 col-sm-12">
+		<div class="date">
+			<span ng-model="currDate">{{currDate | date:'medium'}}</span><br>
+		</div>
+		<div class="select-activity">
+			<h4>Select what you would like to do</h4>
+		
+			  <li  style="list-style:none;">
+			    <input type="radio" ng-model="dining" value="public" />
+			    Dining
+			    <input type="radio" ng-model="nightife" 
+			    value="private" id="custom_venuetype_private" />
+			    Night Life
+			     <input type="radio" name="custom_type" 
+			    value="private" id="custom_venuetype_private" />
+			    Museums
+			     <input type="radio" ng-model="museums"
+			    value="private" id="custom_venuetype_private" />
+			    Sight See
+			     <input type="radio" ng-model="outdoors" 
+			    value="private" id="custom_venuetype_private" />
+			    Outdoors
+			     <input type="radio" ng-model="shopping" 
+			    value="private" id="custom_venuetype_private" />
+			    Shopping
+			  </li>
+			
+ 		</div>
+ 		<div class="weather-widget">weather</div>
+ 		<a href="" class="makeItinerary-button">Make Itinerary</a>
+	</div>
+	<div class="explore-right col-md-5 col-md-offset-1">
+		<div class="myItinerary" ng-hide="itinerary.show">itenerary</div>
+	</div>
+</div>
+<!-- <div class="row">
+	<div class="map" ng-hide="map.show">map</div>
+</div> -->
+
