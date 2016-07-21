@@ -1,0 +1,63 @@
+<ng-include src="templates/header.html"></ng-include>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+<div class="main-pg2">
+
+	<div class="top-left">
+		<img class="esc" src="images/esc.png">
+	</div>
+
+	<div class="contents">
+		
+		<div class="choose-location-all">
+			<div class="choose-location"> Where are you? </div>
+			<input class="type-location" placeholder="Enter a city" type="text" ng-model="searchBar">
+		</div>
+
+		<div class="choose-activities-all">
+			<div class="choose-activities"> What do you want to do today? </div>
+			<div class="select-activity">
+			    <input class="activity" type="radio" ng-model="dining" value="public" />
+			    Dining
+			    <input class="activity" type="radio" ng-model="nightife" 
+			    value="private" id="custom_venuetype_private" />
+			    Nightlife
+			     <input class="activity" type="radio" name="custom_type" 
+			    value="private" id="custom_venuetype_private" />
+			    Museums
+			     <input class="activity" type="radio" ng-model="museums"
+			    value="private" id="custom_venuetype_private" />
+			    Sightseeing
+			     <input class="activity" type="radio" ng-model="outdoors" 
+			    value="private" id="custom_venuetype_private" />
+			    Outdoors
+			     <input class="activity" type="radio" ng-model="shopping" 
+			    value="private" id="custom_venuetype_private" />
+			    Shopping
+		 	</div>
+		</div>
+
+	 	<div class="times-all">
+	 		<div class="amount-time"> How much do you want us to plan? </div>
+	 		<div class="select-time">
+		 		<input type="radio" ng-model="Allday" 
+			    value="private" id="custom_venuetype_private" />
+			    All Day
+			    <input type="radio" ng-model="Morning" 
+			    value="private" id="custom_venuetype_private" />
+			    Morning
+			     <input type="radio" name="custom_type" 
+			    value="private" id="custom_venuetype_private" />
+			    Afternoon
+			     <input type="radio" ng-model="evening"
+			    value="private" id="custom_venuetype_private" />
+			    Evening
+			</div>
+	 	</div>
+	
+		<a class="get-itinerary" href="#/mytrips">Get Itinerary</a>
+
+	</div>
+
+
+</div>

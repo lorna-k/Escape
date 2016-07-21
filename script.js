@@ -15,13 +15,18 @@ app.config(function($routeProvider) {
 	}).when('/page', {
 		controller: 'PageCtrl',
 		templateUrl: '/templates/page.html'
+	}).when('/newtrip2', {
+		controller: 'NewTrip2Ctrl',
+		templateUrl: '/templates/newtrip2.html'
 	})
 });
 
 app.controller('MarketingCtrl', function($scope) { 
 });
 app.controller('PageCtrl', function($scope) {
-	 
+});
+
+app.controller('NewTrip2Ctrl', function($scope, $http, $route) {
 });
 
 app.controller('TripsCtrl', function($scope, $http) {
@@ -86,3 +91,5 @@ $scope.points = {
   decimals: 3
 };
 });
+
+

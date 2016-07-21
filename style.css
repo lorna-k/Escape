@@ -217,6 +217,93 @@ body {
 }
 
 
+/* newtrip2 page */
+.main-pg2 {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/background2.jpg");
+	background-size: cover;
+	background-position: center center;
+    height: 100vh;
+}
+
+.contents {
+	margin: 0px auto;
+	width: 50%;
+}
+
+.choose-location-all {
+	text-align: center;
+}
+
+.choose-location {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 60px;
+	color: white;
+	padding-top: 50px;
+}
+
+.type-location {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 50px;
+	height: 60px;
+	
+	border-radius: 5px;
+}
+
+.choose-activities {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 60px;
+	color: white;
+	margin-top: 40px;
+}
+.select-activity{
+	left: 50%;
+	padding-top: 10px;
+	padding-bottom: 30px
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 30px;
+}
+
+.amount-time {
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 60px;
+	color: white;
+	margin-top: 40px;
+}
+.select-time{
+	left: 50%;
+	padding-top: 10px;
+	padding-bottom: 30px
+	padding: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+}
+
+.get-itinerary {
+	border: 2px solid white;
+	border-radius: 12px;
+	color: white;
+	padding: 15px;
+	font-size: 30px;
+	text-decoration: none;
+	display: block;
+	width: 50%;
+	text-align: center;
+	margin-left: 180px;
+	margin-top: 80px;
+}
+
+.get-itinerary:hover {
+	background-color: white;
+	text-decoration: none;
+}
+
 /*mytrips page stuff*/
 .myNavbar {
 	height: 100px;
@@ -264,116 +351,6 @@ body {
 }
 
 
-/*.appDetails img {
-	width: auto;
-	height:25%;
-}
-
-li {
-	display:inline-block;
-}
-
-.appDetails li p {
-	color: black;
-}
-*/
-.iPhone_block {
-	display: inline-block;
-	width: 100%;
-	margin: 0px auto;
-	position: center;
-	padding-left: 45px;
-}
-
-ul {
-	display: inline-block;
-	width: 33.333%;
-	float: left;
-	margin: 0px auto;
-}
-
-li {
-	text-decoration: none;
-	color: black;
-	text-align: center;
-	margin: 0px auto;
-	display: inline-block;
-}
-
-.list_block {
-	display: inline-block;
-	width: 33.3333%;
-	margin: 0px auto;
-}
-
-hr{
-	height: 3px;
-	background: solid black;
-	margin: 40px auto;
-	width: 1000px;
-}
-
-.stepHeader {
-	text-align: center;
-/*	outline: 1px solid orange;*/
-}
-
-.stepOne {
-	text-align: center;
-	margin-top: 100px;
-	margin-left: -150px;
-	margin-right: 100px;
-}
-
-.stepTwo {
-	text-align: center;
-	margin-top: 100px;
-	margin-left: 100px;
-}
-
-.stepThree {
-	text-align: center;
-	margin-top: 100px;
-}
-
-.stepFour {
-	text-align: center;
-	margin-top: 200px;
-	margin-right: 275px;
-	margin-left: -200px;
-}
-
-.backgroundOne {
-	background: url(images/cape-town-scenery.jpeg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.backgroundTwo {
-	background: url(images/rome.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.backgroundThree {
-	background: url(images/stockholm.jpg);
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
-.backgroundFour {
-	background: url(images/bali.jpg);
-	-webkit-background-size:cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 .left {
 	position: relative;
 	float: left;
@@ -412,24 +389,8 @@ hr{
 	height: 250px;
 }
 
-.select-activity{
-	/*border: 1px solid gray;*/
-	border-radius: 10px;
-	text-align: center;
-	font-family: sans-serif;
-	font-size: 20px;
-	background-color: white;
-	padding-top: 20px;
-	padding-bottom: 30px
-}
 
-.select-activity h4{
-	font-size: 20px;
 
-}
-.activityForm{
-	border: 2px solid green;
-}
 .explore-left{
 	margin-top: 30px;
 	background-color: #F1F1F1;
