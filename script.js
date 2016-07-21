@@ -42,7 +42,7 @@ app.controller('ExploreCtrl', function($scope, $http, $route) {
 app.controller('Main', function($scope) {
 
       $scope.map = {
-  center: [-33.924, 18.424],
+  center: [-33.924, 18.4241],
   options: function() {
       return {
         streetViewControl: false,
