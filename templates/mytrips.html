@@ -15,17 +15,16 @@
         <div class="time-place">
           {{task.Tag}} from {{task.StartTime}} to {{task.EndTime}} at {{task.Event}}
         </div>
-        <div class="with-arrows">
+          <img class="arrow1" src="images/back-arrow.png">
           <div class="details">         
-            <img class="arrow1" src="images/back-arrow.png">
             {{task.Description}} 
-            <img class="arrow2" src="images/next-arrow.png">
           </div>
-        </div>
+          <img class="arrow2" src="images/next-arrow.png">
     </div>
   </div>
 
-    <map ng-transclude class="google-map" center="map.center" options="map.options">  </map>
+
+ <map ng-transclude class="google-map" center="map.center" options="map.options">  </map>
 
     <!--   <points coords="points.coords" options="points.options" events="points.events" decimals="points.decimals"></points>
  -->
