@@ -8,7 +8,7 @@ app.config(function($routeProvider) {
 		templateUrl: 'Escape/templates/marketing.html'
 	}).when('/mytrips', {
 		controller: 'TripsCtrl',
-		templateUrl: 'Escape/templates/mytrips.html'
+		templateUrl: './templates/mytrips.html'
 	}).when('/newtrip', {
 		controller: 'NewTripCtrl',
 		templateUrl: 'Escape/templates/newtrip.html'
@@ -17,7 +17,7 @@ app.config(function($routeProvider) {
 		templateUrl: 'Escape/templates/page.html'
 	}).when('/newtrip2', {
 		controller: 'NewTrip2Ctrl',
-		templateUrl: 'Escape/templates/newtrip2.html'
+		templateUrl: './templates/newtrip2.html'
 	})
 });
 
