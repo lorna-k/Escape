@@ -5,16 +5,16 @@ var app = angular.module('escapeApp', ['ngRoute','ngMaps']);
 app.config(function($routeProvider) {
 	$routeProvider.when('/', {
 		controller: 'MarketingCtrl',
-		templateUrl: 'Escape/templates/marketing.html'
+		templateUrl: './templates/marketing.html'
 	}).when('/mytrips', {
 		controller: 'TripsCtrl',
 		templateUrl: './templates/mytrips.html'
 	}).when('/newtrip', {
 		controller: 'NewTripCtrl',
-		templateUrl: 'Escape/templates/newtrip.html'
+		templateUrl: './templates/newtrip.html'
 	}).when('/page', {
 		controller: 'PageCtrl',
-		templateUrl: 'Escape/templates/page.html'
+		templateUrl: './templates/page.html'
 	}).when('/newtrip2', {
 		controller: 'NewTrip2Ctrl',
 		templateUrl: './templates/newtrip2.html'
