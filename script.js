@@ -8,16 +8,16 @@ app.config(function($routeProvider) {
 		templateUrl: 'Escape/templates/marketing.html'
 	}).when('/mytrips', {
 		controller: 'TripsCtrl',
-		templateUrl: '/templates/mytrips.html'
+		templateUrl: 'Escape/templates/mytrips.html'
 	}).when('/newtrip', {
 		controller: 'NewTripCtrl',
-		templateUrl: '/templates/newtrip.html'
+		templateUrl: 'Escape/templates/newtrip.html'
 	}).when('/page', {
 		controller: 'PageCtrl',
-		templateUrl: '/templates/page.html'
+		templateUrl: 'Escape/templates/page.html'
 	}).when('/newtrip2', {
 		controller: 'NewTrip2Ctrl',
-		templateUrl: '/templates/newtrip2.html'
+		templateUrl: 'Escape/templates/newtrip2.html'
 	})
 });
 
