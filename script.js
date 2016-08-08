@@ -5,7 +5,7 @@ var app = angular.module('escapeApp', ['ngRoute','ngMaps']);
 app.config(function($routeProvider) {
 	$routeProvider.when('/', {
 		controller: 'MarketingCtrl',
-		templateUrl: '../templates/marketing.html'
+		templateUrl: 'Escape/templates/marketing.html'
 	}).when('/mytrips', {
 		controller: 'TripsCtrl',
 		templateUrl: '/templates/mytrips.html'
